@@ -1,0 +1,72 @@
+{
+"red8-boiler": {
+    "themes": [
+        {
+            "location": "https://red8.git.beanstalkapp.com/red8-boiler.git",
+            "activate": true
+        }
+    ],
+    "mu_plugins": [
+      {
+
+      }
+    ],
+    "plugins": [
+        {
+            "location": "http://downloads.wordpress.org/plugin/wordpress-seo.latest-stable.zip",
+            "version": null,
+            "force": false,
+            "activate": true,
+            "activate_network": false
+        },
+        {
+            "location": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.latest-stable.zip",
+            "version": null,
+            "force": false,
+            "activate": true,
+            "activate_network": false
+        },
+        {
+            "location": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
+            "version": null,
+            "force": false,
+            "activate": false,
+            "activate_network": false
+        },
+        {
+            "location": "https://downloads.wordpress.org/plugin/better-wp-security.4.6.13.zip",
+            "version": null,
+            "force": false,
+            "activate": true,
+            "activate_network": false
+        },
+        {
+            "location": "https://downloads.wordpress.org/plugin/wp101.3.2.zip",
+            "version": null,
+            "force": false,
+            "activate": false,
+            "activate_network": false
+        },
+        {
+            "location": "https://downloads.wordpress.org/plugin/user-role-editor.zip",
+            "version": null,
+            "force": false,
+            "activate": true,
+            "activate_network": false
+        },
+        {
+            "location": "https://downloads.wordpress.org/plugin/tracking-script-manager.1.1.2.zip",
+            "version": null,
+            "force": false,
+            "activate": true,
+            "activate_network": false
+        }
+    ],
+    "options": [
+        "current_theme:: red8-boiler"
+    ],
+    "defines": [
+        "WP_CACHE::false"
+    ]
+  }
+}
